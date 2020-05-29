@@ -1,0 +1,27 @@
+
+* {
+	box-sizing: border-box;
+}
+
+div {
+	transform: translate(0, 0);
+	animation: mymove 5s infinite;
+}
+
+::placeholder {
+  color: gray;
+}
+
+.flex {
+	display: grid;
+	grid-auto-columns: auto;
+	&:before {
+		color: #ffffff;
+	}
+}
+
+@media (min-resolution: 2dppx) {
+  .image {
+    background-color: #fff;
+  }
+}

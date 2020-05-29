@@ -1,0 +1,1 @@
+*{box-sizing:border-box}div{transform:translate(0)}::-moz-placeholder{color:grey}:-ms-input-placeholder{color:grey}::-ms-input-placeholder{color:grey}::placeholder{color:grey}.flex{display:grid;grid-auto-columns:auto}.flex:before{color:#fff}@media (-webkit-min-device-pixel-ratio:2),(min-resolution:2dppx){.image{background-color:#fff}}
