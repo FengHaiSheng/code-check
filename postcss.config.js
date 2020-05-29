@@ -2,7 +2,7 @@ module.exports = {
   plugins: {
     'postcss-import': {},
     'postcss-preset-env': {},
-    'cssnano': {}
+    cssnano: {}
   },
-  autoprefixer: { browsers: ['last 2 versions', 'iOS >= 8', 'IE >= 6'] },
-}
+  autoprefixer: { browsers: ['last 2 versions', 'iOS >= 8', 'IE >= 6'] }
+};
