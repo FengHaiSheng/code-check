@@ -1,12 +1,11 @@
-
 * {
-	box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 div {
-	color: #12BCFC;
-	transform: translate(0, 0);
-	animation: mymove 5s infinite;
+  color: #13bcfc;
+  transform: translate(0, 0);
+  animation: mymove 5s infinite;
 }
 
 ::placeholder {
@@ -14,11 +13,12 @@ div {
 }
 
 .flex {
-	display: grid;
-	grid-auto-columns: auto;
-	&:before {
-		color: #ffffff;
-	}
+  display: grid;
+  grid-auto-columns: auto;
+
+  &::before {
+    color: #fff;
+  }
 }
 
 @media (min-resolution: 2dppx) {

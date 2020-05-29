@@ -29,6 +29,7 @@
     "prettier": "^2.0.5",
     "stylelint": "^13.5.0",
     "stylelint-config-ali": "^0.3.2",
+    "stylelint-config-standard": "^20.0.0",
     "webpack": "^4.43.0",
     "webpack-cli": "^3.3.11",
     "webpack-dev-server": "^3.11.0"
@@ -36,7 +37,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "webpack-dev-server --progress --watch --mode=development",
-    "build": "webpack --mode=production"
+    "build": "webpack --mode=production",
+    "stylelint:fix": "stylelint --fix"
   },
   "husky": {
     "hooks": {
@@ -44,13 +46,13 @@
     }
   },
   "lint-staged": {
-    "src/**/*.js": [
+    "*.{js}": [
       "eslint --fix --ext .js",
       "prettier --write",
       "git add"
     ],
-    "*/**/*.less": [
-      "stylelint --fix",
+    "*.{.css,less}": [
+      "npm run stylelint:fix",
       "prettier --write",
       "git add"
     ]

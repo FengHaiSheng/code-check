@@ -2,7 +2,7 @@ module.exports = {
 	rules: {
 
 	},
-	extends: ["stylelint-config-ali"],
+	extends: ["stylelint-config-standard"],
 	plugins: [],
 	processors: [],
 	ignoreFiles: [],
