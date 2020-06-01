@@ -49,8 +49,11 @@
   "lint-staged": {
     "*.{js}": [
       "eslint --fix --ext .js",
-      "prettier --write",
-      "git add"
+      "prettier --write"
+    ],
+    "*.{css,less}": [
+      "npm run stylelint:fix",
+      "prettier --write"
     ]
   },
   "author": "",
