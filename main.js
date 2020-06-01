@@ -28,3 +28,6 @@ const test = new Test('吴博', 27);
 console.log(a, b, test);
 
 var c = 123;
+
+var d = 123;
+

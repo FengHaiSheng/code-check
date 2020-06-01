@@ -24,7 +24,11 @@ module.exports = {
           'postcss-loader',
           'less-loader'
         ]
-      }
+      },
+      {
+      	test: /\.vue$/,
+      	user: ['vue-loader']
+      },
     ]
   },
   devServer: {

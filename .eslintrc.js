@@ -1,6 +1,14 @@
 module.exports = {
-  extends: ['eslint-config-ali', 'prettier', 'plugin:prettier/recommended'],
-  parser: 'babel-eslint',
+  extends: [
+    'eslint-config-ali', 
+    'prettier', 
+    'plugin:vue/vue3-recommended', 
+    'plugin:prettier/recommended'
+  ],
+  parser: 'vue-eslint-parser',
+  parserOptions: {
+    parser: "babel-eslint"
+  },
   rules: {
     'prettier/prettier': 'error',
     strict: 'off',
@@ -9,7 +17,7 @@ module.exports = {
     'global-require': 'off',
     'require-yield': 'off'
   },
-  plugins: ['prettier'],
+  plugins: ['prettier', 'vue'],
   globals: {
     React: 'readable'
   }
