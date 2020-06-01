@@ -2,15 +2,27 @@ import './main.less';
 
 console.log('aaa');
 
-var a = 1;
+let a = 1;
 
 a++;
 
-var b = 1;
+let b = 1;
 
 b++;
 
-var obj = {};
+const obj = {};
 
-obj.name 'test';
-obj.name  123;
+obj.name = 'test';
+obj.name = 123;
+obj.name = 111;
+
+class Test {
+  constructor(name, age) {
+    this.name = name;
+    this.age = age;
+  }
+}
+
+const test = new Test('吴博', 27);
+
+console.log(a, b, test);
