@@ -7,8 +7,9 @@ import './main.less';
 //   render: h => h(Main)
 // });
 
-var a = 1
-var b = 1
+const a = 1;
+const b = 1;
+const e = 1;
 const obj = {};
 
 obj.name = 'test';
@@ -27,4 +28,4 @@ const c = 123;
 
 const d = 123;
 
-console.log(a, b, test, c, d);
+console.log(a, b, test, c, d, e);
