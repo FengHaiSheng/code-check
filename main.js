@@ -9,3 +9,7 @@ a++;
 var b = 1;
 
 b++;
+
+var obj = {};
+
+obj.name 'test';
