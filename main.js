@@ -1,20 +1,14 @@
 import './main.less';
-import Vue from 'vue';
-import Main from './main.vue';
+// import Vue from 'vue';
+// import Main from './main.vue';
 
-const test1 = new Vue({
-  el: '#app',
-  render: h => h(Main)
-});
+// const test1 = new Vue({
+//   el: '#app',
+//   render: h => h(Main)
+// });
 
-let a = 1;
-
-a++;
-
-let b = 1;
-
-b++;
-
+var a = 1
+let b = 1
 const obj = {};
 
 obj.name = 'test';
@@ -33,4 +27,4 @@ const c = 123;
 
 const d = 123;
 
-console.log(a, b, test, test1, c, d);
+console.log(a, b, test, c, d);

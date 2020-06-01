@@ -1,6 +1,7 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+const VueLoaderPlugin = require('vue-loader/lib/plugin')
 
 module.exports = {
   entry: './main.js',
@@ -42,6 +43,7 @@ module.exports = {
     new MiniCssExtractPlugin({
       filename: 'main.css',
       ignoreOrder: false // Enable to remove warnings about conflicting order
-    })
+    }),
+    new VueLoaderPlugin()
   ]
 };
