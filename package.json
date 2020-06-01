@@ -51,11 +51,6 @@
       "eslint --fix --ext .js",
       "prettier --write",
       "git add"
-    ],
-    "*.{.css,less}": [
-      "npm run stylelint:fix",
-      "prettier --write",
-      "git add"
     ]
   },
   "author": "",

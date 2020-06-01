@@ -13,3 +13,4 @@ b++;
 var obj = {};
 
 obj.name 'test';
+obj.name  123;
