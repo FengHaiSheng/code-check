@@ -5,3 +5,7 @@ console.log('aaa');
 var a = 1;
 
 a++;
+
+var b = 1;
+
+b++;
