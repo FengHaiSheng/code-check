@@ -1,5 +1,5 @@
 module.exports = {
-  "extends": ["eslint-config-ali", "prettier", "plugin:prettier/recommended"],
+  "extends": ["eslint-config-standard", "prettier", "plugin:prettier/recommended"],
   "parser": "babel-eslint",
   "rules": {
     "prettier/prettier": "error",
