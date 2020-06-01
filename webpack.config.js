@@ -26,9 +26,9 @@ module.exports = {
         ]
       },
       {
-      	test: /\.vue$/,
-      	user: ['vue-loader']
-      },
+        test: /\.vue$/,
+        loader: 'vue-loader'
+      }
     ]
   },
   devServer: {

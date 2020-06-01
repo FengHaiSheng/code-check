@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "dependencies": {},
+  "dependencies": {
+    "vue": "^2.6.11"
+  },
   "devDependencies": {
     "autoprefixer": "^9.8.0",
     "babel-eslint": "^10.1.0",

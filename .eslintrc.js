@@ -1,13 +1,13 @@
 module.exports = {
   extends: [
-    'eslint-config-ali', 
-    'prettier', 
-    'plugin:vue/vue3-recommended', 
+    'eslint-config-ali',
+    'prettier',
+    'plugin:vue/essential',
     'plugin:prettier/recommended'
   ],
   parser: 'vue-eslint-parser',
   parserOptions: {
-    parser: "babel-eslint"
+    parser: 'babel-eslint'
   },
   rules: {
     'prettier/prettier': 'error',
