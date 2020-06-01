@@ -8,7 +8,7 @@ import './main.less';
 // });
 
 var a = 1
-let b = 1
+var b = 1
 const obj = {};
 
 obj.name = 'test';
